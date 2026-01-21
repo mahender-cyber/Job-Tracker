@@ -1,0 +1,220 @@
+.bg-container{
+    background-color: rgba(4, 87, 87, 0.121);
+    border: 1px solid rgba(0, 0, 0, 0.114);
+    height: 100vh;
+    display: flex;
+}
+
+@media (orientation: landscape) and (max-width: 600px) {
+    .bg-container{
+         background-color: rgba(4, 87, 87, 0.121);
+    }
+}
+
+
+.side-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    width: 170px;
+    flex-wrap: wrap;
+    padding: 15px;
+    border: 0px;
+    height: 100vh;
+}
+.fontt{
+    margin-right:4px ;
+}
+.heading{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+*{
+    box-sizing:border-box;
+}
+.button-card{
+    border: none;
+    padding: 6px;
+    width: 140px;
+    text-align: left;
+    border-radius: 4px;
+    font-family: "Roboto";
+    color:rgb(55, 55, 55);
+    background-color: white;
+}
+.button-card:hover{
+    background-color: rgba(193, 193, 245, 0.248);
+}
+.btn-box{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.welcome2{
+    margin-top: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.welcome{
+    margin-top: 40px;
+    margin-left:12px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 25px;
+    overflow-y:scroll;
+    flex-wrap: wrap;
+    scrollbar-width: none;
+}
+.total-card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.216);
+    margin-top: 25px;
+    width: 160px;
+    flex-wrap: wrap;
+}
+.total{
+    font-size: 13px;
+    font-weight: bold;
+    text-wrap: wrap;
+    color: rgba(0, 0, 0, 0.633);
+}
+.total1{
+    font-size: 12px;
+    font-weight: bold;
+    text-wrap: wrap;
+    color: rgba(0, 0, 0, 0.633);
+}
+.text{
+    color:rgba(0, 0, 255, 0.505);
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 12px;
+}
+.file{
+    margin-left: 10px;
+    color: blue;
+}
+.text1{
+    color:rgb(236, 145, 24);
+}
+.text3{
+    color:#2e8b57;
+}
+.file2{
+     color:rgb(236, 145, 24);
+}
+.file3{
+    color:green
+}
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-table {
+  width: fit-content;
+  border-collapse: collapse;
+  font-family: Arial;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  margin-left: -14px;
+  border-radius: 9px;
+  font-size:14px;
+  margin-bottom: 20px
+}
+
+.status-table th,
+.status-table td {
+  padding: 12px 16px;
+}
+.trr{
+   text-align: right;
+}
+.status-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 17px;
+}
+
+.status-table th,
+.status-table td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.status-table thead th {
+  background-color: #f5f5f5;
+  font-weight: 550;
+  color:rgba(0, 0, 0, 0.651);
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.status-table thead {
+    border-radius: 5px;
+    margin-top: 12px;
+  background-color: #f5f5f5;
+}
+
+.status-table tr {
+  border-bottom: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+/* Status badge common */
+.status {
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 13px;
+
+}
+
+/* Individual status colors */
+.applied {
+  background-color: #e0f0ff;
+  color: #007bff;
+  border-radius: 15px;
+  padding:8px
+}
+
+.interview {
+  background-color: #fff4cc;
+  color: #b8860b;
+  border-radius: 15px;
+  padding:8px
+}
+
+.selected {
+  background-color: #d4f8d4;
+  color: #2e8b57;
+  border-radius: 15px;
+  padding:8px
+}
+
+.rejected {
+  background-color: #ffd6d6;
+  color: #cc0000;
+  border-radius: 15px;
+  padding:8px
+}
+.cc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
